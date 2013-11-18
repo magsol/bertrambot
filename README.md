@@ -1,6 +1,6 @@
-STEWIEBOT
-=========
-*A StarCraft: Brood War bot (that will pwn j00).*
+BertramBot
+==========
+*A StarCraft: Brood War bot.*
 
 Version History
 ---------------
