@@ -1,13 +1,12 @@
-BertramBot
-==========
-*A StarCraft: Brood War bot.*
+# BertramBot
 
-Version History
----------------
-v0.01 (March 3, 2011)
-  - Mostly setup, with the example AI module that was modified committed.
-  - Finished getting Brood War/Chaoslauncher/BWAPI to communicate with each other. See results/notes/thoughts posted on the [project wiki](http://www.magsol.me/wiki/index.php5?title=2011-03-05).
-  - Committed code is the ExampleAIModule that is included with the BWAPI release, but it was slightly modified as a proof-of-concept injection code. Modifications include different messages, and an attack trigger (see onReceiveText).
+*A StarCraft II Bot*
 
-v0.0
-  - Just setting up the repository and committing the BWAPI modules.
+## Overview
+
+This was inspired by [sentdex's recent YouTube series on creating StarCraft II bots](https://www.youtube.com/playlist?list=PLQVvvaa0QuDcT3tPehHdisGMc8TInNqdq) using Python. Given the history of this repository, it's something I've been wanting to do for awhile.
+
+## Prerequisites
+
+ - Python (3.6, _not_ 3.7)
+ - [python-sc2](https://github.com/Dentosal/python-sc2) (though take note of [sentdex's fork](https://github.com/daniel-kukiela/python-sc2/commit/615ad809306e6f6cd6410990c3c7228db5ffd900) that includes an `on_end` method for capturing the final result)
